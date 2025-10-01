@@ -1,12 +1,12 @@
-## Time_series_analysis_of_cancer_mortality_rate
+# Time_series_analysis_of_cancer_mortality_rate
 
 
-## Time Series Analysis & Forecasting of Cancer Mortality Rates in the USA
+# Time Series Analysis & Forecasting of Cancer Mortality Rates in the USA
 
  # A project for analyzing historical trends in cancer mortality across U.S. states, applying time series methods, and forecasting future rates. 
 
 
-# Overview
+## Overview
 
 This repository implements a time series analysis of cancer mortality data across the U.S., using statistical and forecasting methods to:
 	•	Identify trends, seasonality, and structural shifts in mortality rates
@@ -16,7 +16,7 @@ This repository implements a time series analysis of cancer mortality data acros
 	•	Visualize results (time plots, forecast bands, residual analysis)
 
 
-# Repository Structure
+## Repository Structure
 
 
 ├── Data/                   # Raw & cleaned data files (e.g. CSVs, preprocessed datasets)
@@ -29,7 +29,7 @@ This repository implements a time series analysis of cancer mortality data acros
 
 
 
-# Usage & Workflow
+## Usage & Workflow
 
 Here’s how someone can use or reproduce your analyses:
 	1.	Get the data
@@ -54,15 +54,15 @@ Plot data + fits + forecasts, residual diagnostics, error distributions, etc.
 
 
 
-# Example Highlights & Insights
+## Example Highlights & Insights
 	•	Long-term trend in cancer mortality rates: increasing, plateauing, or declining?
 	•	Presence (or absence) of structural breaks (e.g. due to medical advances, policy changes)
 	•	Forecasts with uncertainty bands — what range of mortality rates is plausible in the next 5–10 years
 	•	Model diagnostics: residual checks, autocorrelation in residuals, overfitting avoidance
 	
-⸻
 
-# Technical / Modeling Details
+
+## Technical / Modeling Details
 
 Here are some key modeling and design choices:
 	•	Stationarity / differencing: whether to difference the series (and degree)
@@ -77,7 +77,7 @@ Here are some key modeling and design choices:
 	•	Confidence intervals: how wide are your prediction bands
 
 
-# Dependencies & Environment
+## Dependencies & Environment
 
 List what software, 
 	•	Gretl 
@@ -85,7 +85,7 @@ List what software,
 
 
 
-📃 License & Contributions
+ License & Contributions
 
 This repository is released under the MIT License, allowing reuse, modification, and distribution (with attribution).
 Contributions, improvements, bug fixes, and extensions are warmly welcome — feel free to open issues or pull requests.
